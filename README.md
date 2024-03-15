@@ -7,8 +7,8 @@ This guide outlines practices to improve the efficiency and organization of your
 * 
 
 ## Contents 
-* Managing Large Datasets with Parallel Processing
-* Writing Clean Code
+* [Managing Large Datasets with Parallel Processing](https://github.com/konetzka-lab/code-org-guide/edit/main/README.md#Managing-Large-Datasets-with-Parallel-Processing)
+* [Writing Clean Code](https://github.com/konetzka-lab/code-org-guide/edit/main/README.md#writing-clean-code)
 * Cataloging Code
 * Version Control with GitLab 
 * Publishing Code
