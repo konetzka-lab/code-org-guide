@@ -1,10 +1,10 @@
 # Code Organization Guide
 
-This guide outlines practices to improve the efficiency and organization of your code for CMS data analysis. 
+This guide outlines practical steps to improve the readability, maintainability, and transparency of your code for CMS data analysis projects. 
 
-* Remember that your code will be viewed by someone else.
-* Document early and often along the way. This will not only make your code more readable for others, but also increase your efficiency as you analyze the data.
-* 
+> [!NOTE]
+> **Write and organize your code as if a stranger will be reading and running it.** The following should help you explicitly state the implied logic of your code so that it can be understood and updated for future use. 
+
 
 ## Contents 
 * [Managing Large Datasets with Parallel Processing](https://github.com/konetzka-lab/code-org-guide/edit/main/README#Managing-Large-Datasets-with-Parallel-Processing)
