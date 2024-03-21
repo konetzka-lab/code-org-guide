@@ -7,20 +7,30 @@ This guide outlines practical steps to improve the readability, maintainability,
 
 
 ## Contents 
-* [Managing Large Datasets with Parallel Processing](https://github.com/konetzka-lab/code-org-guide/edit/main/README#Managing-Large-Datasets-with-Parallel-Processing)
-* [Writing Clean Code](/main/README.md#writing-clean-code)
-* Cataloging Code
-* Version Control with GitLab 
-* Publishing Code
+* Writing Clean & Modular Code
+* Storage and Version Control
+* Publishing Code on GitHub
 
 
 
-## Managing Large Datasets with Parallel Processing 
-
-We use [Dask](https://www.dask.org/) for parallel processing in Python. Learn more about [Dask Best Practices](https://docs.dask.org/en/stable/best-practices.html). 
 
 
-## Writing Clean Code
+## Writing Clean & Modular Code
+
+**Start your file with a header** to to document author, description, input files, and output files. 
+
+**Try commenting first.** You may benefit from outlining your logic in comments *before* you write your code. This will help you think through your process, which will should help you avoid mistakes and save time in the long run. 
+
+**Write a comment for every 1-4 lines of code, focusing on quality over quantity.** While too much is probably better than too little, excessive comments can make your code difficult to read. 
+
+**Avoid writing comments that just restates what the code is doing.** Good code should be self-explanatory in that regard, so comments should instead explain what is *not* apparent from the code. 
+
+**Comment the *why* of your code rather than the *what*.** This might include: 
+
+* What the values of your constructed variable mean 
+* Why you need to construct a variable 
+* Why you made an unexpected choice (e.g. formatting quirks of a certain state Medicaid file)
+* Bugs you ran into along the way 
 
 
 ## Cataloging Code
@@ -29,8 +39,7 @@ Store each project under your user folder within your DUA folder in cms-share. *
 
 Within each project folder, create folders for code, data, and output. For example: 
 
-  ~/cms-share/duas/dua56930/Nadia/OUD_codes
-                                        code 
+
   
 
 
