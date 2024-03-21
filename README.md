@@ -46,10 +46,10 @@ See the following guides for mode detail on formatting and naming conventions.
 
 **Refactor your code**: From time to time, go back and restructure your code to improve its readability, maintainability, or performance. Try the following: 
 
-	* break your script into functions 
-	* reduce the number of dependencies 
-	* remove duplication
-		* e.g. combine two similar scripts for processing TAF IP and TAF OT files into one function for processing either file. 
+* break your script into functions 
+* reduce the number of dependencies 
+* remove duplication
+	* e.g. combine two similar scripts for processing TAF IP and TAF OT files into one function for processing either file. 
 
 
 
@@ -65,12 +65,9 @@ Create a repository on the Konetzka Lab group on the Research Computing Group Gi
 
 Store each project under your user folder within your DUA folder in cms-share. **Remember that if you are working under multiple data use agreements, you must store your scripts, analytical datasets, and output in the correct DUA folder.** 
 
-Within each project folder, create folders for code, data, and output. For example: 
-
+Within each project folder, create separate folders for code, data, and output. 
 
   
-
-
 ## Publishing Code
 
 **Before sending out your paper, do an internal code review to make sure your results are valid.** Provide your GitLab repository to a teammate on your DUA and see if they 1) agree with your logic and 2) can understand your code well enough to rerun your analysis. 
@@ -80,7 +77,7 @@ Within each project folder, create folders for code, data, and output. For examp
 
 **Publish completed code at github.com/konetzka-lab under a new repository.** 
 
-Creating a README.md file. This file should be detailed enough for someone else to run your code. 
+**Always create a README.md file for your repository.** This file should be detailed enough for someone else to run your code. Include the following information: 
 
 * General description 
 * Software used
@@ -90,4 +87,4 @@ Creating a README.md file. This file should be detailed enough for someone else 
 	* output data
 	* constructed variables 
 
-You can find an example of a readme file [here](https://github.com/sanghavi-lab/nhc_falls). 
+You can find a great example of a readme file [here](https://github.com/sanghavi-lab/nhc_falls). 
