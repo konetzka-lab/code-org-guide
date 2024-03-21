@@ -23,7 +23,7 @@ This guide outlines practical steps to improve the readability, maintainability,
 
 **Write a comment for every 1-4 lines of code, focusing on quality over quantity.** While too much is probably better than too little, excessive comments can make your code difficult to read. 
 
-**Avoid writing comments that just restates what the code is doing.** Good code should be self-explanatory in that regard, so comments should instead explain what is *not* apparent from the code. 
+**Avoid redundant comments.** Good code should be clear enough to explain what it is doing, so comments should instead explain what is *not* apparent from the code. 
 
 **Comment the *why* of your code rather than the *what*.** This might include: 
 
