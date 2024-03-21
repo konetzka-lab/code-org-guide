@@ -39,8 +39,8 @@ Clear, specific, and consistent naming will reduce the need to explain what vari
 
 See the following guides for mode detail on formatting and naming conventions. 
 
-[Python - PEP 8 Style Guide](https://peps.python.org/pep-0008/)
-[SAS - Programming Guidelines](https://support.sas.com/resources/papers/proceedings/proceedings/sugi31/123-31.pdf)
+* [Python - PEP 8 Style Guide](https://peps.python.org/pep-0008/)
+* [SAS - Programming Guidelines](https://support.sas.com/resources/papers/proceedings/proceedings/sugi31/123-31.pdf)
 
 **Modular code breaks walls of code into smaller building blocks that perform discrete tasks.** These building blocks are easier to read, test, update, and combine with each other. 
 
@@ -73,7 +73,21 @@ Within each project folder, create folders for code, data, and output. For examp
 
 ## Publishing Code
 
-Publish completed code at github.com/konetzka-lab under a new repository. 
+**Before sending out your paper, do an internal code review to make sure your results are valid.** Provide your GitLab repository to a teammate on your DUA and see if they 1) agree with your logic and 2) can understand your code well enough to rerun your analysis. 
 
-### Creating a repository
-### Creating a README.md for your repository 
+> [!WARNING]
+> Double check that there aren't any results in your code to avoid violating the [CMS cell suppression policy](https://resdac.org/articles/cms-cell-size-suppression-policy). 
+
+**Publish completed code at github.com/konetzka-lab under a new repository.** 
+
+Creating a README.md file. This file should be detailed enough for someone else to run your code. 
+
+* General description 
+* Software used
+* Write a description of each step of your analysis, including a table with the following details for each file: 
+	* file name 
+	* input data 
+	* output data
+	* constructed variables 
+
+You can find an example of a readme file [here](https://github.com/sanghavi-lab/nhc_falls). 
