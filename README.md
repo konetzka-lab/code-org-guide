@@ -30,10 +30,38 @@ This guide outlines practical steps to improve the readability, maintainability,
 * What the values of your constructed variable mean 
 * Why you need to construct a variable 
 * Why you made an unexpected choice (e.g. formatting quirks of a certain state Medicaid file)
-* Bugs you ran into along the way 
+* Bugs you ran into along the way
+
+See this guide on [best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/). 
+
+**Follow consistent naming conventions** for your variables, dataframes/datasets, functions/macros, etc.
+Clear, specific, and consistent naming will reduce the need to explain what variables are in the code. 
+
+See the following guides for mode detail on formatting and naming conventions. 
+
+[Python - PEP 8 Style Guide](https://peps.python.org/pep-0008/)
+[SAS - Programming Guidelines](https://support.sas.com/resources/papers/proceedings/proceedings/sugi31/123-31.pdf)
+
+**Modular code breaks walls of code into smaller building blocks that perform discrete tasks.** These building blocks are easier to read, test, update, and combine with each other. 
+
+**Refactor your code**: From time to time, go back and restructure your code to improve its readability, maintainability, or performance. Try the following: 
+
+	* break your script into functions 
+	* reduce the number of dependencies 
+	* remove duplication
+		* e.g. combine two similar scripts for processing TAF IP and TAF OT files into one function for processing either file. 
 
 
-## Cataloging Code
+
+
+## Storage and Version Control
+
+
+Create a repository on the Konetzka Lab group on the Research Computing Group GitLab server for internal version control. 
+
+> [!WARNING]
+> Users of cms-share must do their internal version control on the RCG GitLab servers to protect CMS data from accidentally being published in code. 
+
 
 Store each project under your user folder within your DUA folder in cms-share. **Remember that if you are working under multiple data use agreements, you must store your scripts, analytical datasets, and output in the correct DUA folder.** 
 
